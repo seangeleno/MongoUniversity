@@ -1,0 +1,19 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "Write a Node.js web application that presents users with a form containing three fields and a submit button. The fields should be: title year imdb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sean Esteva",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.13.1",
+    "express": "^4.13.3",
+    "mongo": "^0.1.0",
+    "nunjucks": "^2.3.0",
+    "swig": "^1.4.2"
+  }
+}
